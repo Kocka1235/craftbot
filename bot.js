@@ -3,18 +3,18 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    setGame('youtube');
+    set.Game('youtube');
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'Szia') {
+    	message.channel.send('Szia!!');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
+    if (message.content === 'Mikor Lesz Tgf?') {
+    	message.reply('Majd Craft Kiírja!');
   	}
 });
 
