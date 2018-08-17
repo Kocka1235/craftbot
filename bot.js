@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Mikor Lesz Tgf?') {
-    	message.reply('Majd Craft Kiírja!');
+    	message.send('Majd Craft Kiírja!');
   	}
 });
 
