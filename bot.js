@@ -2,11 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 
 client.on('ready', () => {
-  console.log(`${bot.user.username} is online!`);
-
- 
-
-  //bot.user.setGame("on SourceCade!");
+  console.log(` is online!`);
 });
 
 client.on("message", async message => {
