@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 
-client.on("ready", async () => {
+client.on('ready', () => {
   console.log(`${bot.user.username} is online!`);
 
-  bot.user.setActivity("Nézem Craftot!", {type: "WATCHING"});
+ 
 
   //bot.user.setGame("on SourceCade!");
 });
