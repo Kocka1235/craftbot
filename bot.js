@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client({disableEveryone: true});
 
 client.on('ready', () => {
-  console.log(` is online!`);
+    console.log('I am ready!');
 });
 
 client.on("message", async message => {
