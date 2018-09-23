@@ -136,4 +136,5 @@ client.on("message", async message => {
 
 });
 
-client.login('NDQ0MTk1NDY0NzEyMjkwMzEz.DoAXOQ.jsfKFIWe6m4ZX48MukKLkN2O3dU');;
+client.login('NDQ0MTk1NDY0NzEyMjkwMzEz.DoAXOQ.jsfKFIWe6m4ZX48MukKLkN2O3dU');
+
